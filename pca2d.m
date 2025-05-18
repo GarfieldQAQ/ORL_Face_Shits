@@ -86,5 +86,5 @@ for i = 1:40
     end
 end
 
-save face_save_pca2d;
+save ("./mat/face_save_pca2d");
 svm

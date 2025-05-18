@@ -1,7 +1,7 @@
 clear all;
 close all;
-load face_save_pca2d.mat;
-load svm_model.mat;
+load ("./mat/face_save_pca2d.mat");
+load ("./mat/svm_model.mat");
 simpleImageProcessor(avrgx,Vpca1,Vpca,svmModel,kkk,kkk1,threshold);
 
 function simpleImageProcessor(avrgx,Vpca1,Vpca,svmModel,kkk,kkk1,threshold)

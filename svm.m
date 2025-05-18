@@ -1,5 +1,5 @@
-load face_save_pca2d.mat;
-load svm_model.mat;
+load ("./mat/face_save_pca2d.mat");
+load ("./mat/svm_model.mat");
 % 训练阶段：计算均值和标准差
 mean_train = mean(Y_flat);      % 均值向量（1×特征数）
 std_train = std(Y_flat);        % 标准差向量（1×特征数）
